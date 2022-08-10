@@ -1,11 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: Larisch-Semibold;
     src: url(../fonts/LarishNeueSemibold.woff);
 }
 
+@mixin background-black {
+    background-color: black;
+    color: #fff;
+    font-family: $ff-Larisch;
+}
 
-
-
+@mixin bacground-white {
+    background-color: #fff;
+    color: black;
+    font-family: $ff-Larisch;
+}
 
 $black: black;
 $white: #fff;
+$ff-Larisch: Larisch-Semibold;
