@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Larisch-Semibold;
+    src: url(../fonts/LarishNeueSemibold.woff);
+}
+
+@font-face {
+    font-family: Work-Sans;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+$black: black;
+$white: #fff;
+
+
+.blackBackground {
+    background-color: $black;
+
+    p {
+        color: $white;
+    }
+}

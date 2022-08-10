@@ -1,3 +1,16 @@
-
+@font-face {
+  font-family: Larisch-Semibold;
+  src: url(../fonts/LarishNeueSemibold.woff);
+}
+@font-face {
+  font-family: Work-Sans;
+  src: url(../fonts/Graphik-Medium.ttf);
+}
+.blackBackground {
+  background-color: black;
+}
+.blackBackground p {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */
