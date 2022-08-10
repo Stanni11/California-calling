@@ -3,8 +3,8 @@
   src: url(../fonts/LarishNeueSemibold.woff);
 }
 @font-face {
-  font-family: Work-Sans;
-  src: url(../fonts/Graphik-Medium.ttf);
+  font-family: Larisch-Semibold;
+  src: url(../fonts/LarishNeueSemibold.woff);
 }
 .blackBackground {
   background-color: black;
