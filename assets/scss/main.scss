@@ -79,7 +79,7 @@ header {
         display: flex;
         justify-content: space-between;
         margin-left: 10%;
-        padding-bottom: 25vh;
+        padding-bottom: 15vh;
 
         div {
             margin-top: 15vh;
@@ -101,7 +101,7 @@ header {
         img {
             align-self: flex-start;
             height: 60%;
-            width: 50%;
+            width: 40%;
         }
     }
 }
@@ -113,18 +113,21 @@ header {
 .whiteBackground1 {
     img {
         &:nth-of-type(1) {
-            margin-top: -8vh;
+            margin-top: -15vh;
             margin-right: 10%;
             width: 300px;
             height: 200px;
+            margin-bottom: 10vh;
         }
     }
 
     .stuckInTheMiddle {
         display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
 
         img {
-            &:nth-of-type(1)
+            &:nth-of-type(1) {}
         }
     }
 
