@@ -65,6 +65,9 @@ header button {
   width: 90px;
 }
 
+.bigText {
+  margin-bottom: 10vh;
+}
 .bigText p:nth-of-type(1) {
   margin-left: 10%;
   width: 70%;
@@ -107,9 +110,23 @@ header button {
   margin-right: 10%;
   width: 300px;
   height: 200px;
+  margin-bottom: 10vh;
 }
 .whiteBackground1 .stuckInTheMiddle {
+  margin-top: 10vh;
   display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.whiteBackground1 .stuckInTheMiddle img {
+  width: 200px;
+  height: 150px;
+}
+.whiteBackground1 .stuckInTheMiddle .textStuck p:nth-of-type(1) {
+  font-size: 60px;
+}
+.whiteBackground1 .stuckInTheMiddle .textStuck p:nth-of-type(2) {
+  font-size: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
